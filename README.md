@@ -1,78 +1,54 @@
 # Rick and Morty - Personagens
 
-Frontend desenvolvido em **React + Vite + Tailwind**, criado como desafio para a **Fábrica de Software 2026.1**.
+Aplicação frontend desenvolvida como desafio para a **Fábrica de Software 2026.1**, usando a [Rick and Morty API](https://rickandmortyapi.com/) para exibir, buscar e favoritar personagens da série.
 
-O projeto permite explorar, favoritar e visualizar informações detalhadas sobre os personagens da série Rick and Morty, utilizando a [Rick and Morty API](https://rickandmortyapi.com/).
+## Acesse o projeto
+
+[ws-frontend-fabrica26-1-phi.vercel.app](https://ws-frontend-fabrica26-1-phi.vercel.app)
+
+## Tecnologias usadas
+
+- React + Vite
+- TypeScript
+- Tailwind CSS
+- Shadcn/ui
+- React Router
+- Lucide Icons
 
 ## Funcionalidades
 
-- **Página Inicial**
-  - Lista de personagens paginada
-  - Barra de busca para filtrar pelo nome em tempo real
-  - Favoritar/desfavoritar personagens
-  - Alternância entre visualização em Grade e Lista
-  - Cada card é clicável e leva para a página de detalhes
+**Página Inicial**
+- Lista paginada de personagens
+- Busca por nome em tempo real
+- Alternância entre visualização em Grade e Lista
+- Favoritar/desfavoritar personagens
 
-- **Página de Favoritos**
-  - Mostra apenas os personagens que foram favoritados
+**Página de Favoritos**
+- Lista dos personagens favoritados
 
-- **Página de Detalhes**
-  - Exibe dados detalhados de um personagem selecionado:
-    - Nome e ID
-    - Imagem do personagem
-    - Status (Vivo, Morto ou Desconhecido)
-    - Espécie e Gênero
-    - Planeta de origem
-    - Localização atual
-    - Quantidade de episódios em que apareceu
-  - Botão para favoritar/desfavoritar diretamente na página
+**Página de Detalhes**
+- Nome, ID e imagem do personagem
+- Status, espécie e gênero
+- Planeta de origem e localização atual
+- Quantidade de episódios em que apareceu
+- Opção de favoritar direto na página
 
-## Tecnologias Utilizadas
+## Rotas
 
-- [React](https://react.dev/)
-- [Vite](https://vitejs.dev/)
-- [TypeScript](https://www.typescriptlang.org/)
-- [Tailwind CSS](https://tailwindcss.com/)
-- [Shadcn/ui](https://ui.shadcn.com/)
-- [React Router](https://reactrouter.com/)
-- [Lucide Icons](https://lucide.dev/)
-- [Rick and Morty API](https://rickandmortyapi.com/)
+- `/` → Página inicial
+- `/favoritos` → Favoritos
+- `/detalhes/:id` → Detalhes do personagem
 
-## Estrutura de Páginas
-
-- `/` → Página inicial (lista de personagens + busca + favoritar)
-- `/favoritos` → Lista de personagens favoritados
-- `/detalhes/:id` → Página de detalhes do personagem selecionado
-
-## Deploy
-
-Acesse a aplicação online:  
-[Link do Vercel](https://seu-link.vercel.app)
-
-## Como Rodar o Projeto Localmente
-
-Pré-requisitos:
-- Node.js 18+ e npm instalados
-
-1. Clone o repositório:
+## Como rodar localmente
 ```bash
 git clone https://github.com/VanessaSLino/wsFrontend-Fabrica26.1.git
 cd wsFrontend-Fabrica26.1
-```
-
-2. Instale as dependências:
-```bash
 npm install
-```
-
-3. Inicie em modo desenvolvimento:
-```bash
 npm run dev
 ```
 
-Acesse a aplicação em http://localhost:8080
+Acesse em http://localhost:8080
 
-## Autora
+## 👩‍💻 Autora
 
-Desenvolvido por **Vanessa Lino**  
-[GitHub](https://github.com/VanessaSLino/)
+Desenvolvido por **Vanessa Lino** — [GitHub](https://github.com/VanessaSLino/)
