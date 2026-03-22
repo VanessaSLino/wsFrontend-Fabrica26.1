@@ -2,7 +2,7 @@
 
 Aplicação frontend desenvolvida como desafio para a **Fábrica de Software 2026.1**, usando a [Rick and Morty API](https://rickandmortyapi.com/) para exibir, buscar e favoritar personagens da série.
 
-## Acesse o projeto
+## Acesse o projeto online
 
 [ws-frontend-fabrica26-1-phi.vercel.app](https://ws-frontend-fabrica26-1-phi.vercel.app)
 
