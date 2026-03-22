@@ -1,60 +1,78 @@
-# Pokédex Frontend
+# Rick and Morty - Personagens
 
-Frontend de uma Pokédex desenvolvido em *React + Vite + Tailwind, criado como desafio para a **Fábrica de Software 2025.2*.  
+Frontend desenvolvido em **React + Vite + Tailwind**, criado como desafio para a **Fábrica de Software 2026.1**.
 
-O projeto permite explorar, favoritar e visualizar informações detalhadas sobre Pokémons, e já está *deploy no Vercel*:  
-[[[https://ws-frontend-fabrica25-2-amanda-voss-projects.vercel.app](https://ws-frontend-fabrica25-2-amanda-voss-projects.vercel.app)]]
+O projeto permite explorar, favoritar e visualizar informações detalhadas sobre os personagens da série Rick and Morty, utilizando a [Rick and Morty API](https://rickandmortyapi.com/).
 
-## ✨ Funcionalidades  
+## Funcionalidades
 
-- *Página Inicial*  
-    - Lista de Pokémons paginada  
-    - Barra de busca para filtrar pelo nome  
-    - Favoritar/desfavoritar Pokémons  
-    - Cada card é clicável e leva para a página de detalhes  
+- **Página Inicial**
+  - Lista de personagens paginada
+  - Barra de busca para filtrar pelo nome em tempo real
+  - Favoritar/desfavoritar personagens
+  - Alternância entre visualização em Grade e Lista
+  - Cada card é clicável e leva para a página de detalhes
 
-- *Página de Favoritos*  
-    - Mostra apenas os Pokémons que foram favoritados  
+- **Página de Favoritos**
+  - Mostra apenas os personagens que foram favoritados
 
-- *Página de Informações*  
-    - Exibe dados detalhados de um Pokémon selecionado, como:  
-        - Nome e número na Pokédex  
-        - Imagem oficial  
-        - Altura e peso  
-        - Experiência base  
-        - Tipos (com destaque de cor para cada tipo)  
-    - Botão para favoritar/desfavoritar diretamente na página de detalhes  
+- **Página de Detalhes**
+  - Exibe dados detalhados de um personagem selecionado:
+    - Nome e ID
+    - Imagem do personagem
+    - Status (Vivo, Morto ou Desconhecido)
+    - Espécie e Gênero
+    - Planeta de origem
+    - Localização atual
+    - Quantidade de episódios em que apareceu
+  - Botão para favoritar/desfavoritar diretamente na página
 
-## 🛠 Tecnologias Utilizadas  
+## Tecnologias Utilizadas
 
-- [React](https://react.dev/)  
-- [Vite](https://vitejs.dev/)  
-- [Tailwind CSS](https://tailwindcss.com/)  
-- [React Router](https://reactrouter.com/)  
-- [Lucide Icons](https://lucide.dev/)  
+- [React](https://react.dev/)
+- [Vite](https://vitejs.dev/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Shadcn/ui](https://ui.shadcn.com/)
+- [React Router](https://reactrouter.com/)
+- [Lucide Icons](https://lucide.dev/)
+- [Rick and Morty API](https://rickandmortyapi.com/)
 
-## 📂 Estrutura de Páginas  
+## Estrutura de Páginas
 
-- / → Página inicial (lista de Pokémons + busca + favoritar)  
-- /favourites → Lista de Pokémons favoritados  
-- /pokemon/:id → Página de informações detalhadas do Pokémon selecionado  
+- `/` → Página inicial (lista de personagens + busca + favoritar)
+- `/favoritos` → Lista de personagens favoritados
+- `/detalhes/:id` → Página de detalhes do personagem selecionado
 
-## 🚀 Como Rodar o Projeto Localmente  
+## Deploy
+
+Acesse a aplicação online:  
+[Link do Vercel](https://seu-link.vercel.app)
+
+## Como Rodar o Projeto Localmente
 
 Pré-requisitos:
-- Node.js 18+ e npm (ou yarn/pnpm) instalados
+- Node.js 18+ e npm instalados
 
 1. Clone o repositório:
-     bash
-     git clone https://github.com/Amanda-Voss/wsFrontend-Fabrica25.2.git
-     cd pokedex-frontend
-     
+```bash
+git clone https://github.com/VanessaSLino/wsFrontend-Fabrica26.1.git
+cd wsFrontend-Fabrica26.1
+```
+
 2. Instale as dependências:
-     bash
-     npm install
-     
+```bash
+npm install
+```
+
 3. Inicie em modo desenvolvimento:
-     bash
-     npm run dev
-     
-     Acesse a aplicação em http://localhost:5173 (porta padrão do Vite).
+```bash
+npm run dev
+```
+
+Acesse a aplicação em http://localhost:8080
+
+## Autora
+
+Desenvolvido por **Vanessa Lino**  
+[GitHub](https://github.com/VanessaSLino/)
